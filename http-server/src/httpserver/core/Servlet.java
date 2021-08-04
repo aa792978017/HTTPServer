@@ -1,3 +1,4 @@
+package core;
 /*
  * Copyright 2019-2022 the original author or authors.
  */
@@ -13,5 +14,5 @@ public interface Servlet {
   /**
    * 响应url提供服务
    */
-  public void service();
+  public void service(Request request, Response response);
 }

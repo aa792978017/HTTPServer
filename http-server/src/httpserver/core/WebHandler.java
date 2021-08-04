@@ -1,13 +1,13 @@
 /*
  * Copyright 2019-2022 the original author “WangChang”.
  */
-
+package core;
+import java.util.ArrayList;
+import java.util.List;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class WebHandler extends DefaultHandler{
   private String tag;

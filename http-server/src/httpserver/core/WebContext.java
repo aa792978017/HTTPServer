@@ -1,7 +1,8 @@
-/*
+package core;/*
  * Copyright 2019-2022 the original author “WangChang”.
  */
 
+import core.Mapping;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -49,4 +50,12 @@ public class WebContext {
     return entitysMap.get(name);
   }
 
+
+  public Map<String, String> getMappingsMap() {
+    return mappingsMap;
+  }
+
+  public Map<String, String> getEntitysMap() {
+    return entitysMap;
+  }
 }
